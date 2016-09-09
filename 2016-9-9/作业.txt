@@ -1,0 +1,6 @@
+1   自定义一个类   Rectangle  (矩形)
+    有  width   height 属性  
+    写 get set，   当 set给的值为负时，设为0 
+    写  Area方法，获取矩形面积
+    写 索引器   ["w"]  得到 width    ["h"]  得到height
+    写 一个翻转的函数   Flip    宽和高的值交换     (ref out) 
