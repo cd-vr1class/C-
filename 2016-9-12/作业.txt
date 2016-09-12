@@ -1,4 +1,17 @@
 ﻿1 仿造课堂项目 
-  自定义一个类     
+  自定义一个类    房子  House   
+  有长(leng)宽(width)高(height) 三个属性   它们是float类型
+  有一个方法Volume  获取 房间的体积
+  
+  自定义一个类 浴室BathRoom 继承 House
+  有一个方法Bath    在控制台打印"正在洗澡"
+  
+  
+  House有构造函数接受三个参数 长宽高
+  在子类中用base调用这个构造函数
+  
+  在Main方法中new出BathRoom对象，
+  并检查他里面的各个属性和方法
+  
   
   
