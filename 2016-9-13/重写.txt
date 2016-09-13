@@ -1,0 +1,16 @@
+多态：同样类型的对象，调用同样(名字)的方法，有不同的效果
+重写：子类有一个和父类函数签名一模一样的方法
+
+
+public void S(string a,int b)
+{
+
+}
+
+S(string,int)//函数签名
+
+public void S(string c,int d)
+{
+
+}
+S(string,int)//函数签名
