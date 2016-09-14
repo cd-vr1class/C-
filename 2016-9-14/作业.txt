@@ -1,0 +1,36 @@
+用C#实现
+
+1    public static bool Good(int[] arr,int x)
+     {
+         
+     }
+
+判断x是否大于数组的平均数
+Good(new int[]{1,2,3},3);//true
+Good(new int[]{4,6,8},5);//false
+
+2    传入一个数 判断是否符合某规则
+
+
+       得到每一位相加的结果   判断传入的数是否能被相加的结果整除
+588    5+8+8 =21              588%21==0 ? true:false;
+
+public bool isValid(int n)
+{
+    
+}
+
+isValid(588);//true    5+8+8 = 21   588/21=28
+isValid(27); //true    2+7=9        27/9=3
+isValid(19);//false    1+9=10       19/10 = 1.9 
+
+
+3  定义一个抽象类 AbsOperation  有一个抽象方法  int Operate(int a,int b)
+   定义两个子类 Plus ,Minus 继承上面的类，并实现operate方法
+   Plus 里的Operate  把两数相加
+   Minus 里的Operate  把两数想减
+   
+   定义一个接口  ISquare   有一个方法  int Square (int x)
+   定义两个实现类 PosSquare    NegSquare 
+   PosSquare   得到x的平方
+   NegSquare   得到根号x
