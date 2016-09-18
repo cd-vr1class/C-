@@ -1,0 +1,18 @@
+[[0,0,0,0,0],
+ [0,0,0,1,0],
+ [0,1,1,0,1],
+ [0,0,1,0,1],
+ [0,1,1,0,1]]
+1 、二维数组和下标，计算该下标周围有多少个1
+public static int CountSide(int[][] arr,int x,int y)
+{
+
+}
+2 、//Convert.ToInt32("AF2C",16)
+public static int ToDec(string hexstr)
+{
+    
+}
+
+ToDec("F");//15
+ToDec("1C");//28
