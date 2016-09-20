@@ -1,0 +1,28 @@
+
+
+
+class Fighter
+{
+    public string name;
+    public int hp;
+    public int attack;
+    public Fighter(string values)
+    {
+        //补全代码  从字符串读取名字、血量、攻击力赋值给相应的属性
+    }
+    public static string WhoWin(Fighter f1,Fighter f2)
+    {
+        //补全代码
+        //f1先攻击   f2扣血
+        //f2攻击     f1扣血
+        //无限循环，什么时候谁没血了就返回另一个人的名字
+    }
+}
+
+static void Main(string[] args)
+{
+    Fighter f1 = new Fighter("zhangsan_100_20");
+    Fighter f2 = new Fighter("lisi_150_10");
+    Console.WriteLine(Fight.WhoWin(f1,f2));
+}
+
