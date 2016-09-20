@@ -15,4 +15,4 @@ public static int ToDec(string hexstr)
 }
 
 ToDec("F");//15
-ToDec("1C");//28
+ToDec("1C");//28  
