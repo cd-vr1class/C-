@@ -1,4 +1,4 @@
-
+﻿
 
 
 class Fighter
@@ -21,8 +21,8 @@ class Fighter
 
 static void Main(string[] args)
 {
-    Fighter f1 = new Fighter("zhangsan_100_20");
+    Fighter f1 = new Fighter("zhangsan_100_20"); {"zs","100","20"}
     Fighter f2 = new Fighter("lisi_150_10");
-    Console.WriteLine(Fight.WhoWin(f1,f2));
+    Console.WriteLine(Fighter.WhoWin(f1,f2));
 }
 
