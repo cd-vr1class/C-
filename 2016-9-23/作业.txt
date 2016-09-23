@@ -1,0 +1,20 @@
+1  字符串转大写   
+    //遍历字符串  检查字符是否为小写字母  是：转大写...  不是的话怎么处理？
+   public static string ToUpperCase(string str)
+   {
+
+   }
+
+
+
+2  用栈来检测括号是否匹配
+   "(()())"
+   "())())"
+   Exception 
+
+   public static bool IsMatchPaness(string p)
+   {
+   
+   }
+   IsMatchPaness("(()())");//true
+   IsMatchPaness("())())");//false
