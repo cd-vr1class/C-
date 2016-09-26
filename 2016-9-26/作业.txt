@@ -1,0 +1,12 @@
+1  泛型实现Reduce
+   
+   public static T Reduce<T>(T[] arr,Func<T,T,T> f)
+   {
+          
+   }
+
+2 泛型实现栈的功能 MyStack类
+   class MyStack<T>
+   {
+  
+   }
