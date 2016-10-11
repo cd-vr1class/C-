@@ -1,4 +1,4 @@
-1|zhangsan|11:20:00|hello
+   1|zhangsan|11:20:00|hello
 2|lisi|2016-10-10 11:23:00|how are you
 3|wangwu|2016-10-10 11:25:00|fine thank you and you
 4|lisi|2016-10-10 11:26:00|fine too
@@ -26,3 +26,10 @@ void fillTable()
       command.ExecuteNonQuery();
 }
 
+
+C#练习  
+求出数组中除了最大值和最小值的所有元素的和
+public static int SumWithoutHL(int[] arr)
+{
+	return 0;
+}
