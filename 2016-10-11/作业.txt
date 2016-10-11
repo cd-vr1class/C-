@@ -1,0 +1,28 @@
+1|zhangsan|11:20:00|hello
+2|lisi|2016-10-10 11:23:00|how are you
+3|wangwu|2016-10-10 11:25:00|fine thank you and you
+4|lisi|2016-10-10 11:26:00|fine too
+
+现有四条记录
+
+参照上课的代码 和下面的代码
+实现 插入两条记录
+
+5|wangwu|2016-10-10 11:25:00| how do you do ?
+6|lisi|2016-10-10 11:26:00| bye bye
+
+void fillTable()
+{
+      string sql = "insert into highscores (name, score) values ('Me', 3000)";
+      SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+      command.ExecuteNonQuery();
+
+      sql = "insert into highscores (name, score) values ('Myself', 6000)";
+      command = new SQLiteCommand(sql, m_dbConnection);
+      command.ExecuteNonQuery();
+
+      sql = "insert into highscores (name, score) values ('And I', 9001)";
+      command = new SQLiteCommand(sql, m_dbConnection);
+      command.ExecuteNonQuery();
+}
+
