@@ -1,0 +1,17 @@
+Socket 程序
+
+数据库的准备
+   建表  stuRecord
+   学号(id) 
+   姓名(name)
+   成绩(record)
+
+服务端：
+解析客户端命令
+"add  119_张三_90"   向数据库插入一条数据 
+"all"             把所有学生的成绩信息发给客户端
+"query id 119"        把id为119 的学生信息发给客户端
+"query name 张三"       姓名 
+"query record 60"     把所有成绩小于等于 60 分学生信息发给客户端
+"delete id 119"         把id为119的学生信息删掉  
+"delete name 张三"     把姓名为张三的学生信息删掉  

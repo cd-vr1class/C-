@@ -1,0 +1,203 @@
+
+
+1   变量
+    变量有什么用？(理解)
+	如何定义变量？          T  t;//引用null  值类型各自的默认值
+	变量命名规则？
+2   运算符
+    算术运算符          /     %
+	比较运算符  > < >= <= == !=     (左边一定写变量名)  a>0   0<a(×)   3<a<5(×)
+    逻辑运算符  || && ! 
+	赋值运算符  = += -= *= /= %=  ++ --
+	位运算符    >> << | &
+	三目运算符    A ? B: C;    x.y(z)? 3 : 4;
+3   类型系统
+    值类型   
+	struct 
+	    怎么定义结构体？
+		结构体的特点？
+		什么时候用结构体？(理解)
+	enum
+	    怎么定义枚举？
+		什么时候用枚举？(理解)   
+	引用类型
+	    类
+		怎么定义一个类？
+4   类型的转换  
+    string -> int?     Convert.toInt32(s); 
+	int ->   string?   i+""           i.toString();
+	拆箱 装箱？
+	隐式转换 显示转换？
+	
+5   常量 (永远不变的量)
+    //字面量
+    1
+	2
+	true
+	false
+	"123"  "1"  "1234"
+	自定义一个常量
+	float PI;
+	const float PI = 3.14f;    
+6   流程控制语句      
+    不写花括号会发生什么事情？
+	怎么执行的？
+    if else           
+	switch  case 
+	while 
+	do...while
+	for
+    foreach...in	   变量会取什么值？
+	除do....while,每个语句的圆括号后面都不用写分号。
+	
+7   数组  
+    怎么定义一个数组？
+	  1 固定长度，内容为空
+	    T[] t = new T[8];
+	  2 给制定的内容
+	    int[] nums = new int[] {1,2,3,4,5};
+		//int[] nums = {1,2,3,4,5};
+	怎么取数组元素？
+	怎么改数组元素?
+	什么是二维数组?
+	string [,] names;
+	string [][] names;
+	这是啥，怎么定义，怎么取元素，怎么改元素????
+
+8   字符串操作
+    "00:00:11".Split(':')//
+	subString()//
+	str[0];//会得到什么
+	Replace()//
+	对字符串foreach // 怎么用？
+	字符串本质是一个char[]//
+	
+9   函数是什么？
+    怎么定义函数？
+	什么叫函数的调用？
+    什么叫实参？
+	什么叫形参？
+    什么是返回值，return的作用是什么？
+	递归是什么？
+	
+10  面向对象
+    三大特性？   封装  继承 多态
+	封装是什么?
+	    如何定义类?
+	    什么是字段？
+	    什么是属性?
+	    什么是方法？
+	    什么是构造方法?
+		索引器怎么写，特点?
+		操作符重载怎么写?
+	    什么是访问权限修饰符? public,private,protected,internal,protected internal
+        静态与非静态的属性、方法使用上的区别？
+        静态类是什么，有什么特性，怎么定义？
+        扩展方法是什么，怎么用？	  
+    继承是什么？
+       	base是什么？
+        base的用途?		
+		this是什么？
+		this有什么用途?
+	多态是什么?多态有几种实现方式?
+	    重写是什么?
+		virtual override  new ?
+        重载是什么?
+        抽象类是什么？有什么特点？如何定义？
+        abstract 怎么用?
+        如何实现抽象方法?
+        接口是什么?
+		有什么用途?(理解)
+        接口定义?
+        接口特点?
+        如何实现一个接口?什么叫显式实现接口?		
+	C#只支持单继承，可以实现多个接口。 
+	readonly,sealed有什么用?
+11  异常
+    什么是异常?
+	try catch finally 执行步骤?
+	throw 有什么用?
+	如何自定义异常？
+12  vs去调试代码
+    断点调试怎么用？
+	怎么监视变量的值？
+13  泛型是什么？
+    泛型的好处?
+    泛型如何定义，类后面的泛型,函数后面的泛型? 	
+	
+14  委托与事件	
+    委托是什么？
+	为什么C#要有委托，别的语言中没有这种东西?
+	委托怎么定义？
+	定义好了怎么使用?
+	Func  Action  Predicate Converter?
+    匿名委托是什么?	
+	lambda表达式是什么?
+	高阶函数是什么?
+	高阶函数怎么用? Array.Foreach ,List<T>.Foreach
+    C# Aggregate Select  Where  怎么用?
+    事件是什么？
+	事件如何定义?
+	多播委托?
+	事件与委托的关系?
+	事件限制了委托的哪些功能？
+	事件如何使用？ 
+	事件什么时候使用?(经验，理解)
+	
+15  容器类 
+    泛型容器  非泛型容器   装箱拆箱
+	CRUD   (Create Read Update Delete)
+	Dictionary<TK,TV>  Add ContainsKey ContainsValue  Remove  []  .Keys .Value//  CRUD
+	List<T>   Add AddRange Remove RemoveAt RemoveRange Insert  [] // CRUD
+	Stack<T>  Push Pop Peek// CRD
+	Queue<T> Enqueue Dequeue Peek// CRD
+	//链表 
+	//二叉树
+	//堆
+    //红黑树  平衡二叉树
+
+16  IO操作	
+    文件怎么读?
+	文件怎么写?
+	
+17  XML操作
+    xml是什么？
+	
+    怎么读取 xml里的数据？//节点名字   节点属性  节点开始标签和结束标签中间的文字
+	
+	xml序列化？
+	对象模型的建立？ [XMLAttribute] [XMLElement] [Serilizable]
+	对象 转 xml
+	xml 转 对象
+18  SOCKET 编程
+	服务端如何准备连接？
+	客户端如何连接服务端？
+	客户端如何向服务端发消息？
+	客户端如何收到服务端消息？
+	服务端如何收到客户端消息？
+	服务端如何向客户端发消息？
+
+19  sqlite数据库操作
+    如何创建sqlite数据库
+	
+	sql语句
+	    create table
+	    select
+		insert 
+		update
+		delete
+	如何用C#操作数据？
+	    如何连接数据？
+	    查询语句如何调用？
+		非查询语句如何调用？
+		
+	
+	
+	
+	
+	
+	
+	
+        	
+
+
