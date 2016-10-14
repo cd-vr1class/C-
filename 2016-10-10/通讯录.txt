@@ -1,0 +1,7 @@
+
+create table ConnectPeople
+(
+phonenumber int primary key not null,
+name text not null
+);
+
