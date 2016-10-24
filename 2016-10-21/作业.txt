@@ -1,0 +1,22 @@
+1   十进制加法的步骤
+    
+    public static string Add(string s1,string s2)
+	{
+	
+	}
+	
+	"0123"
+	"7189"            进位： jw=0
+	--------   
+	 7312
+	"7312"
+	      
+2   100以内质数的和
+
+
+3   二维数组的翻转
+    
+	public static  int[,]  Rotation(int[,] arr)
+	{
+	
+	}

@@ -1,0 +1,7 @@
+平行光 Direction light 模拟太阳光  主要影响它效果的东西 旋转
+
+点光源 point light   模拟室内灯光
+
+锥形光源 Spotlight   模拟手电筒  聚光灯
+
+区域光   AreaLight   与光照贴图有关

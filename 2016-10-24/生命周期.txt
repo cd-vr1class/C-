@@ -1,0 +1,16 @@
+
+
+Unity脚本的生命周期
+
+Reset  向物体上添加脚本时，点击reset时执行
+
+
+Update 每个一帧执行一次
+Start  开始的时候执行一次
+Awake  唤醒 是在最开始开始的时候执行  它是在Start之前执行的。
+FixedUpdate  每隔固定的时间来执行的  专门处理与物理系统有关的代码
+OnGUI  Unity古老的UI代码只能这个函数里执行。
+OnDestroy  在脚本所在的物体被销毁时执行
+
+//OnEnable  在Awake和Start之间执行 ，把勾勾回来的时候(启用脚本)执行
+//OnDisable  把脚本的勾去掉(禁用脚本)   
