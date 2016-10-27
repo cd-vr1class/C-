@@ -1,0 +1,34 @@
+1  解码:
+	public static string playPass(string s, int n) {
+		// your code
+	}
+
+  playPass("hello 1a2b!",4);
+  先把字符串倒过来"!b2a1 olleh"
+  遍历字符串 
+  如果是字母，则向左移动第二个参数(这里是4)的次数，（a的左边是z）
+  如果是数字, 则得到9减去该数字的值
+  其他字符保留
+  !保留    ！
+  b左移4位 x 
+  2  9-2   7
+  a左移4位 w
+  1  9-1   8
+  空格保留  
+  o左移4位 k
+  l左移4位 h
+  l左移4位 h
+  e左移4位 a
+  h左移4位 d
+  最后字母全转大写
+  playPass("hello 1a2b!",4); // "!X7W8 KHHAD"
+
+
+2 找出两个字符串中出现过的字母,并按顺序列出
+  public static string Longest (string s1, string s2) 
+  {
+        // your code
+  }
+"aehrsty"== Longest("aretheyhere", "yestheyarehere")
+"abcdefghilnoprstu" == Longest("loopingisfunbutdangerous", "lessdangerousthancoding");
+"acefghilmnoprstuy" == Longest("inmanylanguages", "theresapairoffunctions");
