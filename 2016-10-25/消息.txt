@@ -1,0 +1,7 @@
+Unity物体之间的消息：
+调用函数
+
+
+A   ->  "Hello"  ->  B
+
+public  Hello
