@@ -1,0 +1,25 @@
+unity 
+地板  三个球
+点击按钮后，球开始下落，会弹起，但是弹起高度不一样
+
+
+1 取一个数每一位的3次方的和
+public static long FindNb(long n)
+{
+
+}
+假设  1^3 = 1*1*1
+FindNb(124) = 1^3 + 2^3 + 4^3 
+
+提示：
+如何定义一个long类型的数：
+long a = 1L;
+
+
+
+
+2 删除数组中的最小值
+ public static List<int> RemoveSmallest(List<int> numbers)
+  {
+    // Good Luck!
+  }
