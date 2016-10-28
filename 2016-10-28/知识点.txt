@@ -1,0 +1,21 @@
+
+Invoke   延迟执行函数
+InvokeRepeating   延迟 然后重复执行代码
+Enable   组件前面有没有勾  组件是否被禁用
+gameObject
+transform
+name    物体的名字
+tag     物体的标记
+BroadcastMessage
+SendMessage
+SendMessageUpwards
+GetComponent
+AddComponent
+DontDestoryOnLoad    切换场景时不销毁
+SceneManager.LoadScene    切换场景
+GameObject.Find      通过物体名字来找物体
+Destroy             运行时 删除物体
+DestroyImmediate    编辑模式 删除 
+
+
+
