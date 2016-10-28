@@ -1,0 +1,67 @@
+1 把一个整数的每一位相乘 ，得到的结果继续每一位乘 ，
+  只到它为个位数为止  
+  返回相乘的次数。
+ public static int persistence(int n){}
+
+ persistence(39) == 3 // because 3*9 = 27, 2*7 = 14, 1*4=4
+                      // and 4 has only one digit
+
+2  解码摩尔斯密码 
+摩尔斯密码表如下:
+A .- 
+B -... 
+C -.-. 
+D -.. 
+E . 
+F ..-. 
+G --. 
+H .... 
+I .. 
+J .--- 
+K -.- 
+L .-.. 
+M -- 
+N -. 
+O --- 
+P .--. 
+Q --.- 
+R .-. 
+S ... 
+T - 
+U ..- 
+V ...- 
+W .-- 
+X -..- 
+Y -.-- 
+Z --.. 
+0 ----- 
+1 .---- 
+2 ..--- 
+3 ...-- 
+4 ....- 
+5 ..... 
+6 -.... 
+7 --... 
+8 ---.. 
+9 ----.
+
+public static string decodeMorse(string code){}
+decodeMorse("..-. ..- -.-. -.-   -.-- --- ..-")=="FUCK YOU"
+              F    U   C    K    Y  O   U
+                        三个空格连在一起，解码成空格
+
+3  删除数组中出现超过n次的元素
+public static int[] DeleteNth(int[] arr, int x) 
+{}
+DeleteNth (new int[] {1,1,3,3,7,2,2,2,2}, 3) ;
+结果应该是:  1, 1, 3, 3, 7, 2, 2, 2
+2出现超过三次了，所以删掉一个 剩3个2 
+
+
+4 删除数组中 第n小的数
+public static int[] DeleteNthSmall(int[] arr,int n){}
+n如果大于数组长度或小于等于零 则返回原数组
+
+DeleteNthSmall(new int[]{2,6,10,3,4},2)
+结果应该是 2,6,10,4  第2小的是3 所以删掉
+
