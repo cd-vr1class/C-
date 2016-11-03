@@ -1,0 +1,8 @@
+1、把字符串数组按长度排序
+
+new string[] { "I", "To", "Beg", "Life" }==SortByLength(new string[] { "Beg", "Life", "I", "To" });
+new string[] { "", "Pizza", "Brains", "Moderately" }== SortByLength(new string[] { "", "Moderately", "Brains", "Pizza" });
+new string[] { "Short", "Longer", "Longest" } == SortByLength(new string[] { "Longer", "Longest", "Short" });
+  
+
+2  求数组的方差(数学术语，请百度)
