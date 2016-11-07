@@ -1,0 +1,40 @@
+Application.dataPath
+项目的Assets目录的文件路径
+
+Resources.Load<T>(string name) 
+Resources文件夹下面的名为name的文件(忽略后缀名)
+
+
+//cube.prefab    GameObject
+//1.jpg   Texture
+//2.txt   TextAsset
+Resources.Load<Texture>("1")
+
+Vector3 a = new Vector3(1,1,1);
+a.magnitude
+
+Quaternion.Euler(0, 90, 0);
+
+Invoke("Hello",1f);
+GameObject.Find("Hello");
+
+gameObject.name
+gameObject.tag
+gameObject.isActive
+
+Enable
+
+DontDestroyOnLoad
+SceneManager.LoadScene(string scenename);
+SceneManager.LoadScene(int sceneOrder);
+SceneManager.LoadScene("next");
+SceneManager.LoadScene(0);
+SceneManager.LoadScene(1);
+
+   
+
+Camera
+
+
+
+

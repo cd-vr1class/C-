@@ -1,0 +1,23 @@
+
+协程  程序员
+线程  操作系统
+不同点
+
+obj.SendMessage("Hello",3);
+BroadCastMessage
+
+Vector3.magnitude   向量的长度
+Vector3.Distance
+
+Quaterntion.Euler()  欧拉角转四元数
+
+transform.position         绝对坐标
+transform.localPosition    相对坐标
+
+transform.localRotation = Quaterntion.Euler(0,90,0);
+transform.localEulerAngles = new Vector3(0,90,0);
+
+30*Mathf.Deg2Rad
+Mathf.Ceil(5.3f);//6.0000000000003
+
+

@@ -1,0 +1,28 @@
+Mathf.Ceil(4.4f);//5
+Mathf.Round(4.4f);//4      <=0.5    >0.5
+Mathf.Floor(4.4f);//4      
+
+30  转弧度   
+ Mathf.Deg2Rad*30
+ 
+pi/6    转角度
+ Mathf.Rad2Deg * (Mathf.PI/6)
+ 
+sin30度的值
+
+Mathf.Sin(Mathf.Deg2Rad*30)
+
+Time.timeScale
+   0   暂停
+   >1  快进
+   x>0 && x<1  减速
+   1   正常播放
+Time.time
+   游戏运行时间
+Time.deltaTime
+   两帧之间的时间
+Camera.main.ScreenToWorldPoint()
+      
+PlayerPrefs.Save()
+	  
+

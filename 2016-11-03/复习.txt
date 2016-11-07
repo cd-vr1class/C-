@@ -1,0 +1,23 @@
+lua
+
+协程   迭代器模式                程序员调度
+线程   进程里的一个个支线任务    操作系统调度
+进程   一个正在运行的程序
+
+
+协程开启 
+10
+//Coroutine c;
+//c = StartCoroutine(Hello(10))
+IEnumrator ie=Hello(10);
+StartCoroutine(ie);
+
+StartCoroutine("Hello",10)
+
+
+IEnumrator Hello(int n){}
+
+StopCoroutine("Hello");
+StopCoroutine(c);
+StopCoroutine(ie);
+StopAllCoroutine();
