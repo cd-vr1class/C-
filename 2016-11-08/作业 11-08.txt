@@ -1,0 +1,11 @@
+1  求数组移动n次 的结果
+            1 2 3 4 5    
+ 移动一次   5 1 2 3 4 
+ 移动两次   4 5 1 2 3
+   public static List<int> MoveArray(List<int> arr,int n){}
+
+2  判断一个数组的左右两边之和是不是相等的
+提示：如果数组是奇数个那么中间那个别去管它
+举例  1 2 3 4 3 2 1   左边是 1+2+3=6  右边是 3+2+1=6  相等  所以是true 
+   public static bool isEqualSides(int[] arr){}
+     
