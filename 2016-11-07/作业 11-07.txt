@@ -1,0 +1,29 @@
+1  "abbcccdddee"
+   这个字符串中  a出现了一次 b出现了两次  c出现了三次 d出现了三次 e出现了两次
+   假设传入1   则返回出现一次的  "a"
+   假设传入2   则返回出现两次的 "be"
+   假设传入3   则返回出现三次的 "cd"
+   public static string CountDup(string str,int count){}
+
+
+2  对字符串中的元音进行移位(aeiou为元音)
+  
+   假设字符串是："This is a test",并且传入的移动数字是3
+   那么元音移动3次：
+             This is a test
+   元音：      i  i  a  e
+ 移动一次      e  i  i  a
+ 移动两次      a  e  i  i
+ 移动三次      i  a  e  i
+             This as e tist
+  结果为: "This as e tist"
+  如果传入的数字是1
+  那么元音移动1次：
+             This is a test
+   元音：      i  i  a  e
+   移动一次    e  i  i  a
+             Thes is i tast
+   结果为： "Thes is i tast"
+  public static string VowelShift(string text, int n)
+  {
+  }
