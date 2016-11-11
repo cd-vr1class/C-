@@ -1,0 +1,25 @@
+Unity脚本生命周期
+OnGUI   老的GUI代码只能放在这个函数里面
+
+OnFixedUpdate  每隔固定时间执行  处理物理系统
+
+OnLateUpdate   最后执行的一个update函数  处理相机变化
+
+OnEnable       启用脚本时执行
+
+OnDestroy      组件所在物体被销毁时执行
+
+Awake
+OnEnable
+Start
+
+碰撞发生条件
+
+void OnTriggerEnter(Collider col)
+void OnTriggerExit(Collider col)
+void OnTriggerStay(Collider col)
+
+void OnCollisionEnter(Collision coll)
+void OnCollisionStay(Collision coll)
+void OnCollisionExit(Collision coll)
+

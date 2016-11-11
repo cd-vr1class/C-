@@ -1,0 +1,20 @@
+Mathf.Ceil(3.3f);4
+Mathf.Floor(3.3f);3
+Mathf.Round(4.5f);4
+Application.dataPath     Assets文件夹的路径
+Resources.Load("a")      在项目中的所有的Resources文件夹下面查找a文件
+Time.deltaTime           当前帧与上一帧之间的时间间隔 单位是秒
+Time.time                游戏的运行时间 单位是秒
+Time.timeScale           0暂停  0-1 慢速 1正常 >1 快速
+
+30 * Mathf.Deg2Rad  
+
+Vector3 a = new Vector3(1,1,1);  
+Vector3.Distance(Vector3.zero,a)
+a.magnitue           向量的长度
+a.normalize          求单位向量
+
+Vector3.Dot          判断垂直   
+
+
+

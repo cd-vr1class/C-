@@ -1,0 +1,54 @@
+索引器
+class A
+{
+	private string s="";
+	
+	public string this[int n]
+	{
+	    get{
+			if(n==1)
+				return s;
+			else
+				return "";
+				//throw new Exception("不知道怎么处理");
+		}
+		set{
+			if(n==1)
+				this.s=value;
+		}
+	}
+}
+A a = new A();
+a[1]//""
+a[1]="Hello";
+a[1]//"Hello"
+
+
+ref out
+
+
+在函数里 想通过赋值运算直接改变实参的值
+
+public static void Add(out int a,ref int b)
+{
+	a = 13;
+    int c = a+5;
+	b = 15;
+}
+int sa ;
+int sb = 5;
+Add(out sa,ref sb);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
