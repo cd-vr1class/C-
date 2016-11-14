@@ -1,0 +1,5 @@
+1   判断字符串中是否有中文 
+   public static bool hasChinese(string str)
+   {
+
+   }

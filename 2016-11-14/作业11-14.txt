@@ -1,0 +1,10 @@
+1 获取字符串中中文的个数
+  public static int CountChinese(string str){}
+
+2 排列组合 
+  "AB"与"CD" 两个字符串 
+   每个字母互相组合的结果是 
+  ["AC", "AD" ,"BC","BD"]
+
+  实现这个功能
+  public static string[] InteractStr(string s1,string s2){}
