@@ -1,0 +1,20 @@
+1  用三个参数构造一个数组  
+   起始值 间隔  长度   
+如   2     3      4     结果应该是    [2,5,8,11]
+如   1     2      6                   [1,3,5,7,9,11]
+
+   public static int[] ConstructArray(int start,int rate,int len){}
+
+
+2  质因数分解    (以前做过的for循环doc文件里有)
+ PrimerConstruct(12)// "2*2*3"
+ PrimerConstruct(15)// "3*5"
+ PrimerConstruct(36)// "2*2*3*3"
+
+ public static string PrimerConstruct(int n){}
+ 
+ 
+
+
+
+   

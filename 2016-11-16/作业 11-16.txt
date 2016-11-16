@@ -1,0 +1,11 @@
+1 解码字符串  (提示：用栈来解决这个问题会比较方便)
+  s = "3[a]2[bc]"       return "aaabcbc"
+  s = "3[a2[c]]"         return "accaccacc"
+  s = "2[abc]3[cd]ef"    return "abcabccdcdcdef"
+
+ public static string DecodeString(string s){}
+
+2  找出落单的元素
+   给你一个数组，每个元素都会出现三次，只有一个会落单，找出这个落单的有元素
+
+  public static int GetSingleNum(int[] arr){}
