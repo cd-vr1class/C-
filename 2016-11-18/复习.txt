@@ -1,1 +1,56 @@
+3d模型 
+  3d网格(形状 灵魂)(MeshFilter)
+  网格渲染(肉体) (MeshRender)
+      ——材质
+	     ——贴图  (改变纹理)
+		 ——着色器(Shader)  
+		   专门处理光线颜色纹理综合之后的效果
+	     相对坐标 绝对坐标
+Start
+Update
+Awake
+FixedUpdate
+SendMessage
+BroadCastMessage
+SendMessageUpwords
+transform.postion=
+transform.rotation=
+transform.localScale=
+鼠标输入检测
+按键输入检测
+Input.GetAxis("Horizontal")
+Input.GetAxis("Mouse ScrollWheel")
+预制体是什么?
+Instantiate使用预制体
+Vector3    Dot  Cross
+长度  单位向量  
+Quaterntion  Euler
+transform gameObject tag name
+enable AddComponent GetComponent
+GameObject.Find
+Invoke InvokeRepeating
+Destroy  DontDestroyOnLoad
+Application.dataPath
+Application.StreamAssetsPath
+Resources.Load
+Camera屏幕坐标转三维坐标 三维坐标转屏幕坐标
+Time.deltaTime
+Time.time
+Time.timeScale
+Math.Ceil Floor Round 
+弧度 角度 Sin Cos Abs Sqrt
+协程开启 关闭
+协程与线程
+地形按钮使用
+碰撞条件  
+六个碰撞函数什么时候调用
+角色控制器 move simplemove
+GUIText GUITexture
+Button Image Text Toggle RawImage
+
+
+
+
+
+
 
