@@ -13,7 +13,7 @@
 	三目运算符    A ? B: C;    x.y(z)? 3 : 4;
 3   类型系统
     值类型   
-	struct 
+	struct      1 无法继承   2 
 	    怎么定义结构体？
 		结构体的特点？
 		什么时候用结构体？(理解)
@@ -29,15 +29,14 @@
 	拆箱 装箱？
 	隐式转换 显示转换？
 	
-5   常量 (永远不变的量)
+5   常量 (永远不变的量)//const
     //字面量
     1
 	2
 	true
-	false
+	false  's'  
 	"123"  "1"  "1234"
 	自定义一个常量
-	float PI;
 	const float PI = 3.14f;    
 6   流程控制语句      
     不写花括号会发生什么事情？
@@ -79,6 +78,10 @@
 	什么叫形参？
     什么是返回值，return的作用是什么？
 	递归是什么？
+	int Sum(int n)
+	{
+		return n==0?0:n+Sum(n-1);
+	}
 	
 10  面向对象
     三大特性？   封装  继承 多态
@@ -134,8 +137,10 @@
     匿名委托是什么?	
 	lambda表达式是什么?
 	高阶函数是什么?
+	
 	高阶函数怎么用? Array.Foreach ,List<T>.Foreach
-    C# Aggregate Select  Where  怎么用?
+    C# Aggregate([初始,]函数) Select  Where  怎么用?
+	
     事件是什么？
 	事件如何定义?
 	多播委托?

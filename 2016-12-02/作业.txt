@@ -1,0 +1,24 @@
+1 "04:14"
+public static int GetLength(string s){}
+
+
+2 "[00:04] ÃÎµÄ¿ÉÄÜ - ³ÂŞÈÑ¸"
+class Lrc
+{
+	public int current;
+	public string s;
+}
+ public static Lrc GetLrc(string s)
+{
+	Lrc  l = new Lrc();
+	...
+	...
+	l.current = .....
+	l.s = .....
+	return l;
+}
+
+x     y                y=(x+1)/2
+-1    0
+0     0.5
+1     1

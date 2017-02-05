@@ -1,0 +1,24 @@
+流程控制语句：
+if语句
+switch 语句 
+    强制每一个case 都要有break做结束。
+for
+while
+
+while(条件)
+{
+	循环体
+}
+
+do
+{
+
+}while(条件);
+
+
+foreach
+
+for 与 foreach  
+for使用范围广，所有循环都可以通过for来实现
+foreach 只能用来遍历某个集合里的元素
+foreach 不能解决与下标相关的问题

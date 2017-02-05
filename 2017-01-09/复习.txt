@@ -1,0 +1,27 @@
+string
+
+int     4     字节 (byte)  
+long    8
+short   2
+bool    1
+float   4
+double  8
+decimal 16
+char    2
+byte    1 
+
+值类型(struct enum)   ValueType
+引用类型                            Object
+
+数组的父类      Array
+
+int[] a = new int[6];
+int[] a = new int[]{1,2,3,4,5};
+
+for foreach   
+for可以实现所有的循环
+foreach只能遍历集合里所有的元素
+要用下标的就不能用foreach
+
+
+

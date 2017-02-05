@@ -31,15 +31,21 @@ GameObject.Find
 Invoke InvokeRepeating
 Destroy  DontDestroyOnLoad
 Application.dataPath
-Application.StreamAssetsPath
+Application.StreamingAssetsPath
 Resources.Load
 Camera屏幕坐标转三维坐标 三维坐标转屏幕坐标
 Time.deltaTime
 Time.time
 Time.timeScale
 Math.Ceil Floor Round 
-弧度 角度 Sin Cos Abs Sqrt
-协程开启 关闭
+弧度 角度 Sin Cos Abs Sqrt 
+ //Degree   to  Radian
+90 *  Mathf.Deg2Rad
+
+协程开启 关闭      
+StartCoroutine("Hello","yes");
+IEnumerator Hello(string s){}
+
 协程与线程
 地形按钮使用
 碰撞条件  

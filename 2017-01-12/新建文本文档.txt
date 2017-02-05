@@ -1,0 +1,50 @@
+
+继承
+
+继承的形式
+
+class person
+{
+	protected string heart;
+	public int height;
+	public int weight;
+	public void Run()
+	{
+		Console.WriteLine("走");
+	}
+}
+
+class WhitePeople:person
+{
+	public string skinColor;
+}
+(父类子类)==(基类派生类)     继承 == 派生
+继承的含义：
+可以通过继承获得父类提供的属性和方法
+
+目的：
+消灭重复代码
+
+
+构造函数
+1  函数名与类名一致
+2  没有返回值
+//3  没有用static修饰
+目的：
+new 对象时就是在调用构造函数
+new对象的时候，可以传入不同的参数
+特点1：
+当类里，没定义任何构造函数的时候。
+会自动添加一个无参构造函数。
+推论：
+如果定义构造函数，不会自动添加无参构造函数。
+特点2：
+当发生继承时，父类一定要有一个无参构造函数。
+
+重载
+一样名字的函数 ，不一样的参数
+
+
+
+
+

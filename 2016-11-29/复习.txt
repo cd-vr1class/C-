@@ -1,0 +1,14 @@
+生命周期
+OnDisable
+LateUpdate
+
+A 运动学刚体 碰撞体
+B 碰撞体
+
+Sin 30
+Mathf.Sin(Mathf.Deg2Rad*30)
+
+自转 transform.Rotate
+公转 transform.RotateAround
+
+

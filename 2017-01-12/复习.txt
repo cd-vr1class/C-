@@ -1,0 +1,33 @@
+字段和属性的关系
+加了getset
+操作空间
+
+value
+
+索引器  至少一个get set
+目的：使用[]操作
+
+操作符重载
++
+class B
+{
+	public static string operator+(B b1,B b2)
+	{
+		return "aaa";
+	}
+}
+
+
+封装：
+
+protected   在子类和本身中使用
+internal  只能在程序集(dll文件)中使用 
+
+protected internal 
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+1 常见的隐式转换
+  默认的可以从A类型转换到B类型称之为隐式转换
+  
+   int ->float  是
+   float -> int 不是隐式转换
+   int ->long   是
+   int ->double 是
+   short -> int 是
+   char  -> int 是
+   
+   
+   我提过的那个表格里的类型支持这种规律
+   小数(float,double,decimal)->整数   不支持这规律
+   小的数据类型->大的数据类型
+   
+2  父类和子类之间的隐式转换
+   接口和实现类之间的隐式转换
+   Object o = 3;
+   子类型->父类型  支持隐式转换
+   实现类->接口    支持隐式转换
+
+
+
+显示转换  强制转换
+float a = 3.6f;
+int b = (int)a;
+Object o = "c";
+string s = o as string;
+
+
+
+Convert.toInt32("26");
+
+
+
+
+
+
+
+  

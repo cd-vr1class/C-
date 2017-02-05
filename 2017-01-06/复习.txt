@@ -1,0 +1,16 @@
+System.Object 是所有类型的父类
+System.Array  是所有数组的父类  []
+System.ValueType 是所有值类型的父类
+
+值类型包含 
+struct 结构体
+enum   枚举
+
+1,2,3,4,5
+
+int[] x = new int[]{1,2,3,4,5};
+int[] x = {1,2,3,4,5};
+
+int[] x = new int[5];
+
+//class  

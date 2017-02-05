@@ -1,0 +1,20 @@
+地板 上 有三个方块 
+红色  蓝色  黄色的 
+  A     B     C
+
+默认控制A方块
+ASDW 前后左右    shift加速 空格跳
+
+m  切换控制对象     A -》 B -》C
+
+方块碰撞换颜色
+  
+  
+    public GameObject A;
+	// Use this for initialization
+	void Start () {
+        A.GetComponent<ASDW>().enabled = false;
+	}
+
+
+

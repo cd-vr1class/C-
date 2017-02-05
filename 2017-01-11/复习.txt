@@ -1,0 +1,9 @@
+public   公开的
+private  私有的  
+如果属性或方法被private修饰
+那么在该属性或方法定义的类里才能使用它
+
+访问权限修饰符
+protected
+internal
+protected internal

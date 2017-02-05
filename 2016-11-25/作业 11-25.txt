@@ -1,0 +1,19 @@
+场景中有5个人
+
+按数字1 
+第一个人举手 高过头顶  其他人手放下
+按数字2
+第二个人举手 高过头顶  其他人手放下
+........
+
+以此类推
+
+参考代码：
+右手指向点rightHandObj的代码如下：
+animator.SetIKPositionWeight(AvatarIKGoal.RightHand,1);
+animator.SetIKRotationWeight(AvatarIKGoal.RightHand,1);  
+animator.SetIKPosition(AvatarIKGoal.RightHand,rightHandObj.position);
+animator.SetIKRotation(AvatarIKGoal.RightHand,rightHandObj.rotation);
+右手放下的代码如下：
+anim.SetIKPositionWeight(AvatarIKGoal.RightHand, 0);
+anim.SetIKRotationWeight(AvatarIKGoal.RightHand, 0);
