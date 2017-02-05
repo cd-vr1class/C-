@@ -1,0 +1,11 @@
+1 课堂作业
+  添加一个快进按钮，并实现其功能
+
+
+2 C#
+  找寻失踪的字符 
+  public string FindMissing(string s){}
+
+  FindMissing("abcdf");  //"e"
+  FindMissing("OQRS");   //"p"   
+  FindMissing("adf");    //"bce" 

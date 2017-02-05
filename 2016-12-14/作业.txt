@@ -1,0 +1,40 @@
+作业：
+模仿观察者模式
+
+在Unity中实现
+地板上有10个cube  随机坐标
+点击地板人就走，走到一个cube上就得一分同时cube消失
+
+达到10分以后，显示分数的文字就开始闪烁(从黑色变成红色,可以用NGUI的Tween来实现)
+
+
+
+注意Unity中继承Monobehaviour的类不能new
+
+
+普通的C#代码
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Player p = new Player();
+            TaskSystem ts = new TaskSystem();
+            PresentSystem ps = new PresentSystem();
+            p.UpEvent += ts.UpLevel;
+            p.UpEvent += ps.UpLevel;
+        }
+    }
+
+unity中：
+   class HHH:MonoBehaviour
+    {
+        public Player p ;   //这三个属性必须在Unity中把脚本拖到参数中
+        public TaskSystem ;
+        public PresentSystem; 
+        void Start()
+        {
+            p.UpEvent += ts.UpLevel;
+            p.UpEvent += ps.UpLevel;
+        }
+    }
+

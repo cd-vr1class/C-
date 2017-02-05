@@ -1,0 +1,68 @@
+/// <summary>
+    /// 电灯类，对应模式中的Context类
+    /// </summary>
+    public class Light
+    {
+        private LightState state;
+
+        public Light(LightState state)
+        {
+            this.state = state;
+        }
+
+        /// <summary>
+        /// 按下电灯开关
+        /// </summary>
+        public void PressSwich()
+        {
+            state.PressSwich(this);
+        }
+
+        public LightState State
+        {
+            get { return state; }
+            set { state = value; }
+        }    
+    }
+
+    /// <summary>
+    /// 抽象的电灯状态类，相当于State类
+    /// </summary>
+    public abstract class LightState
+    {
+        public abstract void PressSwich(Light light);
+    }
+
+    /// <summary>
+    /// 具体状态类, 开
+    /// </summary>
+    public class On : LightState
+    {
+        /// <summary>
+        /// 在开状态下，按下开关则切换到关的状态。
+        /// </summary>
+        /// <param name="light"></param>
+        public override void PressSwich(Light light)
+        {
+            Console.WriteLine("Turn off the light.");
+
+            light.State = new Off();
+        }
+    }
+
+    /// <summary>
+    /// 具体状态类，关
+    /// </summary>
+    public class Off: LightState
+    {
+        /// <summary>
+        /// 在关状态下，按下开关则打开电灯。
+        /// </summary>
+        /// <param name="light"></param>
+        public override void PressSwich(Light light)
+        {
+            Console.WriteLine("Turn on the light.");
+
+            light.State = new On();
+        }
+    }
